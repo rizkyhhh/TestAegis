@@ -55,6 +55,7 @@ dotnet run
 
 6. **Akses API** melalui:
    - Swagger UI: `http://localhost:5094/swagger`
+   - Postman Collection pada repository
 
 ---
 
