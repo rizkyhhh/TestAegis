@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "12345678-abcd-efgh-ijkl-1234567890ab",
+    "name": "Dynamic Employee Input",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add Employee",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nama\": \"Andi\",\n  \"umur\": 25,\n  \"jabatan\": \"Developer\",\n  \"tanggalBergabung\": \"2022-06-20\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5094/download/add-employee",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5094",
+          "path": [
+            "download",
+            "add-employee"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
