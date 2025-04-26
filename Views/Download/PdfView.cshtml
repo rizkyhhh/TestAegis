@@ -1,0 +1,16 @@
+@model dynamic
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download PDF</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: navy; }
+        p { font-size: 14px; }
+    </style>
+</head>
+<body>
+    @Html.Raw(Model.HtmlContent)
+</body>
+</html>
